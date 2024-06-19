@@ -7,10 +7,10 @@ Free Lunch Information Sharing Platform
 ## 網頁大綱 ER-model & Database schema（資料表欄位設計）
 
 ### Database schema:
+![image](https://github.com/ysh1017/Free-Lunch-Hunter/assets/101330673/e164e311-fc60-4976-9448-f7d8283f37f3)
 
 ### ER-model: 
-
-清晰圖檔：
+![image](https://github.com/ysh1017/Free-Lunch-Hunter/assets/101330673/eb695ab9-28b9-4746-ac77-551da1a234d1)
 
 ## 功能簡介與特色
 
