@@ -32,8 +32,10 @@ Free Lunch Information Sharing Platform
 
 ### 其他功能：
 - 預覽文章：使用者可以同步預覽文章顯示的效果，包含emoji能否正常顯示。
+
   ![image](https://github.com/ysh1017/Free-Lunch-Hunter/assets/101330673/875d7762-ff41-4dd2-bd3c-8cf040697798)
 - RWD響應式布局：網頁在safari等行動裝置瀏覽器也能正常運作。
+
   ![image](https://github.com/ysh1017/Free-Lunch-Hunter/assets/101330673/6815d48f-0680-4353-b171-a123335e00ad)
 
 
