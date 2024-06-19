@@ -54,7 +54,7 @@ Free Lunch Information Sharing Platform
 
 ## 檔案架構
 ```
-FINAL_PROJECT
+Free-Lunch-Hunter
 ├── about.php
 ├── admin_dashboard.php
 ├── ArticleClass.php
@@ -74,20 +74,20 @@ FINAL_PROJECT
 ├── navbar.php
 ├── post_article.php
 ├── premium_check.php
-├── premiumindex.php
+├── premium_index.php
 ├── rate.php
 ├── recharge.php
 ├── register.php
 ├── script.js
 ├── scriptopen.js
-├── style_activity.css
-├── style_post.css
-├── style.css
-├── styleopen.css
-├── styles.css
-├── styles1.css
-├── styles2.css
-├── upgrade.php
+├── styles_activity.css
+├── styles_admin_and_register.css
+├── styles_articles.css
+├── styles_index.css
+├── styles_login.css
+├── styles_post.css
+├── test.php
+└── upgrade.php
 ```
 
 ## 總結與心得
