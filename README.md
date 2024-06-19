@@ -52,6 +52,9 @@ Free Lunch Information Sharing Platform
 
 值得一提的是，我們因為常常需要遠端協作，我們使用了 git for Windows、GitHub、VS Code 的 live share 與 NGROK 服務(將本機的 IP 埠號，對應到一個隨機產生的 HTTPS 網址)，將自己的電腦變成一台小型伺服器，以讓大家都能修改同一份程式碼以及連接同一個網站和資料庫，這些實用的做法也讓我們的協作能力提升。
 
+![image](https://github.com/ysh1017/Free-Lunch-Hunter/assets/101330673/56156c19-791d-4bf4-8704-d5570ab9e652)
+
+
 ## 檔案架構
 ```
 Free-Lunch-Hunter
