@@ -56,7 +56,7 @@ if ($error) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>登入 - 免費午餐分享平台</title>
-    <link rel="stylesheet" href="styles2.css">
+    <link rel="stylesheet" href="styles_login.css">
     <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
 </head>

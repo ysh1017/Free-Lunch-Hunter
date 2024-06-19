@@ -47,7 +47,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
             $conn->commit();
 
-            echo "<script>alert('升級成功！'); window.location.href='premiumindex.php';</script>";
+            echo "<script>alert('升級成功！'); window.location.href='premium_index.php';</script>";
             exit;
         } catch (PDOException $e) {
             $conn->rollBack();

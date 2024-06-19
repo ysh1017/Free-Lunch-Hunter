@@ -59,7 +59,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>發布活動 - 免費午餐分享平台</title>
-    <link rel="stylesheet" href="style_activity.css">
+    <link rel="stylesheet" href="styles_activity.css">
     <style>
         .navbar_admin {
             display: flex;

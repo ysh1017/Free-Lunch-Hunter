@@ -69,7 +69,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>註冊 - 免費午餐分享平台</title>
-    <link rel="stylesheet" href="styles1.css">
+    <link rel="stylesheet" href="styles_admin_and_register.css">
     <script>
         // 檢查是否有錯誤訊息
         document.addEventListener('DOMContentLoaded', function() {

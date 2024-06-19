@@ -45,7 +45,7 @@ foreach ($activities as $activity) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>管理員控制台 - 免費午餐分享平台</title>
-    <link rel="stylesheet" href="styles1.css">
+    <link rel="stylesheet" href="styles_admin_and_register.css">
     <style>
         .navbar_admin {
             display: flex;
@@ -128,7 +128,7 @@ foreach ($activities as $activity) {
                     <p class="activity-content"><?php echo htmlspecialchars($activity['content']); ?></p>
                     <?php if (!empty($activity['img'])): ?>
                         <img src="<?php echo htmlspecialchars($activity['img']); ?>" alt="Activity Image"
-                            style="max-width:30%; height:auto; object-fit: contain;'">
+                            style="max-width:30%; height:auto; object-fit: contain;">
                     <?php endif; ?>
                     <p>活動日期：<?php echo htmlspecialchars($activity['act_date']); ?></p>
                     <p>地點：<?php echo htmlspecialchars($activity['place']); ?></p>

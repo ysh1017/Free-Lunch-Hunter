@@ -17,7 +17,7 @@ if (!isset($_SESSION['user_id'])) {
 $user_id = $_SESSION['user_id'];
 
 if (isPremium($user_id, $conn) == 1) {
-    header('Location: premiumindex.php');
+    header('Location: premium_index.php');
     exit;
 } elseif (isPremium($user_id, $conn) == 2) {
     header('Location: admin_dashboard.php');
@@ -56,7 +56,7 @@ $userBalance = getUserBalance($user_id, $conn);
             <h1>歡迎，<?php echo htmlspecialchars($user['username']); ?>！</h1>
         </header>
 
-        <h2>免費午餐活動行事曆</h2>
+        <h2>免費午餐行事曆</h2>
         <div id='calendar'></div>
 
         <h2 style="color:#0d47a1;">最新活動</h2>
@@ -95,11 +95,9 @@ $userBalance = getUserBalance($user_id, $conn);
 
                         // 如果有圖片，顯示圖片
                         if (!empty($activity['img'])) {
-                            $img_path = htmlspecialchars($activity['img']);
-                            $full_img_url = 'http://localhost' . $img_path;
-                            echo "<img src='" . $full_img_url . "' alt='Activity Image' style='max-width:100%; height:auto;'>";
+                            $img_url = htmlspecialchars($activity['img']);
+                            echo "<img src='" . $img_url . "' alt='Activity Image' style='max-width:50%; height:auto;'>";
                         }
-
                         echo "<p>活動日期：" . htmlspecialchars($activity['act_date']) . "</p>";
                         echo "<p>地點：" . htmlspecialchars($activity['place']) . "</p>";
                         echo "<p>開始時間：" . htmlspecialchars($activity['STARTT']) . "</p>";
@@ -201,7 +199,7 @@ $userBalance = getUserBalance($user_id, $conn);
                         echo '<form class="comment-form" method="post" action="comments.php">';
                         echo '<input type="hidden" name="article_id" value="' . htmlspecialchars($article['article_id']) . '">';
                         echo '<textarea name="content" placeholder="留言……" required></textarea><br>';
-                        echo '<input type="submit" value="Comment" data-article-id="' . htmlspecialchars($article['article_id']) . '">';
+                        echo '<input type="submit" value="送出" data-article-id="' . htmlspecialchars($article['article_id']) . '">';
                         echo '</form>';
 
                         echo '</div>';
@@ -211,13 +209,12 @@ $userBalance = getUserBalance($user_id, $conn);
                 }
                 // 提示升級premium以解鎖更多文章
                 echo '<div class="unlock-premium">';
-                echo '<a href="upgrade.php>解鎖 Premium 會員以觀看更多文章</p>';
+                echo '<a href="upgrade.php">解鎖 Premium 會員以觀看更多文章</a>';
                 echo '</div>';
                 ?>
             </div>
 
             <br>
-            <a href="upgrade.php">升級到 Premium 會員</a>
             <a href="recharge.php">儲值點數</a>
             <p>目前點數餘額：<?php echo $userBalance; ?> 點</p>
     </div>
